@@ -12,4 +12,5 @@
 */
 
 Route::get("/", "CodeController@index");
+Route::get("/all", "CodeController@all");
 Route::post("/", "CodeController@code");

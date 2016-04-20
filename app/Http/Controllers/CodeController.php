@@ -10,6 +10,10 @@ class CodeController extends Controller {
     return view("home")/*->with( "codes", Code::all() )*/;
   }
 
+  public function all() {
+    return view("home")->with( "codes", Code::all() );
+  }
+
   public function code(Request $request) {
 
     // Build response
