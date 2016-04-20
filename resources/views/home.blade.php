@@ -23,8 +23,8 @@
 
       <hr>
 
-      <h2>All Codes</h2>
       <?php if( isset($codes) ) { ?>
+      <h2>All Codes</h2>
       <dl class="codes">
       <?php foreach( $codes as $code ) { ?>
         <dt class="code__code"><strong><em><?php echo $code->code; ?>:</em></strong></dt>
