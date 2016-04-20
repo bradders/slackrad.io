@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 class CodeController extends Controller {
 
   public function index() {
-    return view("home")/*->with( "codes", Code::all() )*/;
-  }
-
-  public function all() {
     return view("home")->with( "codes", Code::all() );
   }
 
