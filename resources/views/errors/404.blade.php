@@ -28,7 +28,7 @@
   <footer class="section">
 
     <div class="wrapper">
-      <p class="copyright"><a class="link" href="http://mattmade.co.uk">&copy; Copyright Matt Bradley 2016</a></p>
+      <p class="copyright"><a class="link" href="http://mattmade.co.uk">&copy; Copyright Matt Bradley <?php echo date("Y"); ?></a></p>
     </div>
     <!-- /.wrapper -->
 
